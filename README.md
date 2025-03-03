@@ -7,7 +7,7 @@ Our Kitchen is a beautifully crafted, user-friendly website designed to showcase
 
 ## 🚀 Key Features
 
-- 🌐 Multi-Page Navigation:** Well-organized pages including Home, About, Contact, and Feedback.
+- **🌐 Multi-Page Navigation:** Well-organized pages including Home, About, Contact, and Feedback.
 
 - **🔗 Anchor Links:** Smooth and efficient navigation between different sections on the same and other pages.
 
