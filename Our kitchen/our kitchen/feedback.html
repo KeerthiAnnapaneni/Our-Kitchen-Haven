@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+</head>
+<body>
+    <div id="feedback"></div>
+    <h3>Thank you for giving feedback </h3>
+    <ol>
+        <li><a href="About.html#About">About our receipes</a></li>
+        <li><a href="contact.html#contact">contact</a></li>
+        <li><a href="index.html#first">First</a></li>
+    </ol>
+    <form action="feedback.py" method="post">
+    <label for="username">enter your name:</label>
+    <input type="text" id="username" name="username"placeholder="enter your name " required><br>
+    <br>
+    <br>
+    <div>
+        <label for="rating">How much rating would you give:</label>
+        <select id="rating" name="rating" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5" selected>5</option>
+        </select>
+        
+
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="feedback">what did you like most about us?</label>
+        <textarea id="feedback" rows="5" cols="25" placeholder="enter your feedback here..."></textarea>
+
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="improvements">what improvements would you suggest</label>
+        <textarea id="improvements" rows="5"></textarea>
+    </div>
+    <br>
+    <br>
+    
+    <label for="submit"></label>
+    <input type="submit" value="submit">
+    </form>
+    <h5>thank you...</h5>
+    
+</body>
+</html>
